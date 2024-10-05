@@ -6,7 +6,10 @@ export default function Home() {
         <div className='flex justify-center  w-full h-44 sm:h-96'>
             <img src={hero5} alt='supermercado' className=' object-cover h-full w-full'/>
             <div class=" flex absolute mt-3 sm:mt-2 bg-opacity-50">
-                <h2 class="text-2xl font-bold text-emerald-900 bg-slate-100 opacity-90 rounded-full">"Tudo que você precisa, pertinho de você!"</h2>
+                <h2 
+                class="md:text-2xl text-base font-bold text-emerald-900 bg-slate-100 opacity-90 rounded-full">
+                  "Tudo que você precisa, pertinho de você!"
+                </h2>
             </div>
         </div>
         <Mid/>

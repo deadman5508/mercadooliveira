@@ -5,7 +5,7 @@ export default function Header() {
  return (
    <header className='flex items-center justify-between mx-auto shadow-lg text-amber-950 md:h-auto h-20 sm:max-w-7xl px-4'>
     <Link to='/' className=' flex items-center'>
-      <img src={logo} alt="logo"  className='rounded-3xl w-20'/>
+      <img src={logo} alt="logo"  className='rounded-3xl w-20 md:w-20'/>
       
     </Link>
     <div className='gap-2 flex flex-row font-semibold text-sm sm:text-xl'>
