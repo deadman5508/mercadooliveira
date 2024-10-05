@@ -8,7 +8,7 @@ export default function Header() {
       <img src={logo} alt="logo"  className='rounded-3xl w-20'/>
       
     </Link>
-    <div className='gap-2 flex flex-row font-semibold text-lg'>
+    <div className='gap-2 flex flex-row font-semibold text-sm sm:text-xl'>
       <Link to='/' className='duration-300 hover:tracking-widest'>HOME</Link>
       <Link to='/Institucional' className='duration-300 hover:tracking-widest'>INSTITUCIONAL</Link>
       <Link to='/Produtos' className='duration-300 hover:tracking-widest'>PRODUTOS</Link>
