@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body{
+  background: radial-gradient(circle, #f7f0e7 30%, #F5F5DC 100%);
+  font-family: sans-serif;
+}
+.app{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}

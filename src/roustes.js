@@ -1,0 +1,19 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Header from './components/Header'
+import Home from './pages/Home'
+import Institucional from './pages/Institucional'
+import Produtos from './pages/Produtos'
+
+export default function RoutesApp(){
+    return(
+        <BrowserRouter>
+            <Header/>
+            <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/Institucional" element={<Institucional/>}/>
+            <Route path="/Produtos" element={<Produtos/>}/>
+            
+            </Routes>
+        </BrowserRouter>
+    )
+}
