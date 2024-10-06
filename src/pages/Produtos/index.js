@@ -21,7 +21,7 @@ export default function Produtos() {
         <div className="flex flex-wrap justify-between mb-20">
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero6} className="w-20 rounded-full" />
-            <span className="text-lg  ">Refrigerantes, sucos, achocolatados, energeticos, agua mineral etc...</span>
+            <span className="text-lg  ">Refrigerantes, sucos, achocolatados, energéticos, agua mineral etc...</span>
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero12} className="w-20 rounded-full" />
@@ -29,15 +29,15 @@ export default function Produtos() {
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero13} className="w-20 rounded-full" />
-            <span className="text-xl ">Caneta, tesoura,pilhas, agulha, linha, laminas de barbear  etc...</span>
+            <span className="text-xl ">Caneta, tesoura,pilhas, agulha, linha, lâminas de barbear  etc...</span>
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero7} className="w-20 rounded-full" />
-            <span className="text-xl ">Aveia, farinha lactea, enlatados, barras de chocolate, doces etc...</span>
+            <span className="text-xl ">Aveia, farinha láctea, enlatados, barras de chocolate, doces etc...</span>
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero8} className="w-20 rounded-full" />
-            <span className="text-xl ">Sabão liquido, detergente, desinfetante, papel higiênico etc...</span>
+            <span className="text-xl ">Sabão líquido, detergente, desinfetante, papel higiênico etc...</span>
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero9} className="w-20 rounded-full" />
@@ -49,7 +49,7 @@ export default function Produtos() {
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero11} className="w-20 rounded-full" />
-            <span className="text-xl ">Queijo, iogurte,leite natural, requeijão, danone, leite de caixa, etc...</span>
+            <span className="text-xl ">Queijo, iogurte, leite natural, requeijão, danone, leite de caixa, etc...</span>
           </Link>
         </div>
         <Pay/>
