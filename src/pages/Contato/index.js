@@ -7,8 +7,8 @@ import Map from "../../components/Map";
 
 export default function Contato() {
  return (
-    <div className='flex flex-col sm:flex-row  mx-auto text-amber-950 sm:max-w-7xl gap-2 mt-5 px-2 mb-52'>
-        <div className="w-full">
+    <div className='flex flex-col sm:flex-row  mx-auto text-amber-950 sm:max-w-7xl gap-2 mt-5 sm:mt-10 px-2 mb-52'>
+        <div className="w-full ">
         <Form/>
         </div>
 

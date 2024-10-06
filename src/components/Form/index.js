@@ -33,8 +33,8 @@ export default function Form() {
       };
     
       return (
-        <form onSubmit={handleSubmit} className="w-full">
-          <div className="flex flex-col">
+        <form onSubmit={handleSubmit} className="w-full items-center flex flex-col  ">
+          <div className="w-2/3 ">
             <label className="font-semibold">Nome:</label>
             <input
               type="text"
@@ -42,10 +42,10 @@ export default function Form() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-2/3 rounded-md flex flex-col"
+              className="w-full rounded-md "
             />
           </div>
-          <div>
+          <div className="w-2/3 flex flex-col">
             <label>Assunto:</label>
             <input
               type="text"
@@ -53,22 +53,22 @@ export default function Form() {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-2/3 rounded-md flex flex-col"
+              className=" rounded-md "
             />
           </div>
-          <div>
+          <div className="w-2/3 flex flex-col">
             <label>Mensagem:</label>
             <textarea
               name="message"
               value={formData.message}
               onChange={handleChange}
               required
-              className="w-2/3 rounded-md flex flex-col"
+              className=" rounded-md resize-none"
             />
           </div>
           <button 
           type="submit"
-          className="text-white font-semibold px-2 py-1 w-2/3 bg-green-500 rounded-md">Enviar para WhatsApp</button>
+          className="text-white mt-4 font-semibold px-2 py-1 w-2/3 bg-green-500 rounded-md">Enviar para WhatsApp</button>
         </form>
       );
 }

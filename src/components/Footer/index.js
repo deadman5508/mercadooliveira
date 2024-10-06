@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { FiFacebook } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
+import Fawpp from "../Fawpp";
 
 export default function Footer() {
  return (
@@ -9,10 +10,10 @@ export default function Footer() {
         <div className="flex flex-row justify-between w-full gap-2 px-2">
             <div className="flex flex-col col-start-3">
                 <h2 className="text-lg font-semibold">Links uteis</h2>
-                <Link to='/'>Home</Link>
-                <Link to='/Institucional'>Sobre nós</Link>
-                <Link to='/Contato'>Contato</Link>
-                <Link to='/Produtos'>Mix de produtos</Link>
+                <Link className="py-1" to='/'>Home</Link>
+                <Link className="py-1" to='/Institucional'>Sobre nós</Link>
+                <Link className="py-1" to='/Contato'>Contato</Link>
+                <Link className="py-1" to='/Produtos'>Mix de produtos</Link>
             </div>
             <div className="hidden sm:block">
                 <h2 className="text-lg font-semibold">Parceiros</h2>
@@ -27,10 +28,10 @@ export default function Footer() {
             </div>
             <div className="flex flex-col col-start-3">
                 <h2 className="text-lg font-semibold">Siga-nos</h2>
-                <div className="flex flex-row gap-2">
+                <div className="flex flex-row gap-2 text-2xl">
                 <FiFacebook />
                 <FiInstagram />
-                <FaWhatsapp />
+                <Fawpp />
                 </div>
             </div>
         </div>
