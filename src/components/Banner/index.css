@@ -1,0 +1,18 @@
+/* Adicione isso ao seu index.css */
+.indicator {
+    width: 12px; /* Tamanho da bolinha */
+    height: 12px; /* Tamanho da bolinha */
+    border-radius: 50%; /* Borda arredondada para criar uma bolinha */
+    
+    margin: 0 4px; /* Espaçamento entre bolinhas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    
+}
+
+.indicator-active {
+    background-color: #34D399; /* Cor ativa (emerald) */
+}
+
+.indicator-inactive {
+    background-color: #9CA3AF; /* Cor inativa (gray) */
+}

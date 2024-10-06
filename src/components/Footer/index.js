@@ -7,7 +7,7 @@ import Fawpp from "../Fawpp";
 export default function Footer() {
  return (
    <main className='flex flex-col  shadow-inner justify-around mx-auto text-amber-950 sm:max-w-7xl gap-2 mb-2'>
-        <div className="flex flex-row justify-between w-full gap-2 px-2">
+        <div className="flex flex-row justify-between w-full gap-2 px-2 mt-4">
             <div className="flex flex-col col-start-3">
                 <h2 className="text-lg font-semibold">Links uteis</h2>
                 <Link className="py-1" to='/'>Home</Link>

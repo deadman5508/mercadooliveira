@@ -7,15 +7,18 @@ import hero10 from '../../assests/hero10.png'
 import hero11 from '../../assests/hero11.png'
 import hero12 from '../../assests/hero12.webp'
 import hero13 from '../../assests/hero13.png'
+import Pay from "../../components/Pay";
+import Banner from "../../components/Banner";
 
 export default function Produtos() {
  return (
-   <main className='flex mx-auto flex-col text-amber-950 sm:max-w-7xl gap-2 mt-5 px-2 mb-52'>
+   <main className='flex mx-auto flex-col text-amber-950 sm:max-w-7xl gap-2 mt-5 px-2 mb-10 sm:mb-24'>
+      <Banner/>
     <div className="flex items-center justify-between mx-auto  text-amber-950 ">
           <h1 className="text-xl sm:text-2xl font-semibold">Nossos Produtos </h1>
           
         </div>
-        <div className="flex flex-wrap justify-between">
+        <div className="flex flex-wrap justify-between mb-20">
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero6} className="w-20 rounded-full" />
             <span className="text-lg  ">Refrigerantes, sucos, achocolatados, energeticos, agua mineral etc...</span>
@@ -42,13 +45,14 @@ export default function Produtos() {
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero10} className="w-20 rounded-full" />
-            <span className="text-xl ">Salsicha, linguiça, charque,hamburguer, presunto etc...</span>
+            <span className="text-xl ">Salsicha, linguiça, charque, carne de hamburguer, presunto, empanados etc...</span>
           </Link>
           <Link to='/Produtos' className="flex w-4/5 sm:w-2/4 p-2 gap-2">
             <img src={hero11} className="w-20 rounded-full" />
-            <span className="text-xl ">Queijo, iogurte,leite natural, requeijão, danone etc...</span>
+            <span className="text-xl ">Queijo, iogurte,leite natural, requeijão, danone, leite de caixa, etc...</span>
           </Link>
         </div>
+        <Pay/>
    </main>
    
   );
