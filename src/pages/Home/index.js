@@ -4,7 +4,7 @@ import hero4 from '../../assests/hero4.png'
 import { Link } from 'react-router-dom';
 export default function Home() {
  return (
-   <main className='flex flex-col justify-around mx-auto text-amber-950 sm:max-w-7xl gap-2'>
+   <main className='flex flex-col mb-52 justify-around mx-auto text-amber-950 sm:max-w-7xl gap-2'>
         <div className='flex justify-center  w-full h-44 sm:h-96'>
             <img src={hero5} alt='supermercado' className=' object-cover h-full w-full'/>
             <div class=" flex absolute mt-3 sm:mt-2 bg-opacity-50">

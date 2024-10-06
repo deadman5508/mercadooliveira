@@ -12,7 +12,7 @@ export default function Header() {
       <Link to='/' className='duration-300 hover:tracking-widest hidden sm:block'>HOME</Link>
       <Link to='/Institucional' className='duration-300 hover:tracking-widest'>INSTITUCIONAL</Link>
       <Link to='/Produtos' className='duration-300 hover:tracking-widest'>PRODUTOS</Link>
-      <span className='duration-300 hover:tracking-widest'>CONTATO</span>
+      <Link to='/Contato' className='duration-300 hover:tracking-widest'>CONTATO</Link>
       
     </div>
    </header>
