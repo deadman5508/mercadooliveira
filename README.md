@@ -1,4 +1,4 @@
-Site Institucional criado para consolidar a marca e a empresa do cliente, utiliado para a criação React, Nextjs e Tailwind <<<<<<< HEAD 
+Site Institucional criado para consolidar a marca e a empresa do cliente, utilizado para a criação do website  React, Nextjs e Tailwind <<<<<<< HEAD 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
